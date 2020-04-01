@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" verbose="10">
+  <parameter name="browser type" value="Chrome"/>
+  <parameter name="url" value="https://www.toolsqa.com/automation-practice-form/"/>
+  <test name="Test(failed)">
+    <parameter name="browser type" value="Chrome"/>
+    <parameter name="url" value="https://www.toolsqa.com/automation-practice-form/"/>
+    <classes>
+      <class name="org.totalqa.com.CompleteRegistrationForm">
+        <methods>
+          <include name="registrationForm"/>
+          <include name="invokebrowser"/>
+        </methods>
+      </class> <!-- org.totalqa.com.CompleteRegistrationForm -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

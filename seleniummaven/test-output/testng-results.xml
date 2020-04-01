@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-08-06T18:55:49Z" name="Suite" finished-at="2019-08-06T18:56:09Z" duration-ms="20016">
+    <groups>
+    </groups>
+    <test started-at="2019-08-06T18:55:49Z" name="Test" finished-at="2019-08-06T18:56:09Z" duration-ms="20016">
+      <class name="org.h2k.openmrs.tests.HomePageForMRSTest">
+        <test-method is-config="true" signature="invokeBrowser(java.lang.String, java.lang.String)[pri:0, instance:org.h2k.openmrs.tests.HomePageForMRSTest@291ae]" started-at="2019-08-06T14:55:49Z" name="invokeBrowser" finished-at="2019-08-06T14:56:05Z" duration-ms="16399" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.openmrs.org/openmrs/login.htm]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method signature="VerifyLogin()[pri:0, instance:org.h2k.openmrs.tests.HomePageForMRSTest@291ae]" started-at="2019-08-06T14:56:05Z" name="VerifyLogin" finished-at="2019-08-06T14:56:09Z" duration-ms="3570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+      </class> <!-- org.h2k.openmrs.tests.HomePageForMRSTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

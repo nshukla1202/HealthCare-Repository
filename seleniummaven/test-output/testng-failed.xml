@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" verbose="10">
+  <parameter name="url" value="https://demo.openmrs.org/openmrs/login.htm"/>
+  <parameter name="browserType" value="FF"/>
+  <test name="Test(failed)">
+    <parameter name="url" value="https://demo.openmrs.org/openmrs/login.htm"/>
+    <parameter name="browserType" value="FF"/>
+    <classes>
+      <class name="org.h2k.openmrs.tests.HomePageForMRSTest">
+        <methods>
+          <include name="VerifyLogin"/>
+          <include name="invokeBrowser"/>
+        </methods>
+      </class> <!-- org.h2k.openmrs.tests.HomePageForMRSTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

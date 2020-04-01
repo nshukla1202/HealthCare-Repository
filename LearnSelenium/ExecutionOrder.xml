@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="false" verbose="10" name="Suite">
+  <test name="Test">
+    <classes>
+       <class name="testNgEx.ExecutionOrder">
+       <methods>
+       <include name="a3"/>
+       <include name="a2"/>
+       <include name="a1"/>
+      </methods>
+   </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

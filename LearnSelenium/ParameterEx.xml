@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="false" verbose="10" name="Suite">
+  <test name="Test+java">
+  <parameter name="jobType" value="java"/>
+  <parameter name="url" value="https://www.indeed.com/" />
+  <classes>
+  <class name="org.learnselenium.learn.ParameterEx" />
+  </classes>
+  </test> <!-- Test -->
+   <test name="Test+Selenium">
+  <parameter name="jobType" value="Selenium"/>
+  <parameter name="url" value="https://www.indeed.com/" />
+  <classes>
+  <class name="org.learnselenium.learn.ParameterEx" />
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

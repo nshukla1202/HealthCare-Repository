@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="10">
+  <parameter name="jobType" value="Selenium"/>
+  <parameter name="url" value="https://www.indeed.com/"/>
+  <test name="Test+java">
+    <parameter name="jobType" value="java"/>
+    <parameter name="url" value="https://www.indeed.com/"/>
+    <classes>
+      <class name="testngEx.ParametersEx"/>
+    </classes>
+  </test> <!-- Test+java -->
+  <test name="Test+Selenium">
+    <parameter name="jobType" value="Selenium"/>
+    <parameter name="url" value="https://www.indeed.com/"/>
+    <classes>
+      <class name="testngEx.ParametersEx"/>
+    </classes>
+  </test> <!-- Test+Selenium -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="false" verbose="10" name="Suite">
+  <test name="Test">
+  <parameter name="browser type" value="Chrome"></parameter>
+  <parameter name="url" value="https://www.toolsqa.com/automation-practice-form/"></parameter>
+  
+    <classes>
+      <class name="org.totalqa.com.CompleteRegistrationForm"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

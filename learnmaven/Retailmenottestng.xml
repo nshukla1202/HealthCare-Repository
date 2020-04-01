@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="false" verbose="10" name="Suite">
+  <test name="Test">
+  <parameter name="browser type" value="FF"/>
+  <parameter name="url" value="https://www.retailmenot.com/holidays/valentines-day"/>
+  <classes>
+  <class name="org.retailmenot.RetailmeNotTest"></class>
+  
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

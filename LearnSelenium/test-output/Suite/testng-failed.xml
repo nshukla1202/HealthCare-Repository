@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="10">
+  <parameter name="jobtype" value="QTP"/>
+  <parameter name="url" value="https://www.indeed.com/"/>
+  <parameter name="browserType" value="CH"/>
+  <test name="Test+FF+Selenium">
+    <parameter name="jobtype" value="Selenium"/>
+    <parameter name="url" value="https://www.indeed.com/"/>
+    <parameter name="browserType" value="FF"/>
+    <classes>
+      <class name="testNgEx.CrossBrowserTesting"/>
+    </classes>
+  </test> <!-- Test+FF+Selenium -->
+  <test name="Test+IE+java">
+    <parameter name="jobtype" value="java"/>
+    <parameter name="url" value="https://www.indeed.com/"/>
+    <parameter name="browserType" value="IE"/>
+    <classes>
+      <class name="testNgEx.CrossBrowserTesting"/>
+    </classes>
+  </test> <!-- Test+IE+java -->
+  <test name="Test+CH+QTP">
+    <parameter name="jobtype" value="QTP"/>
+    <parameter name="url" value="https://www.indeed.com/"/>
+    <parameter name="browserType" value="CH"/>
+    <classes>
+      <class name="testNgEx.CrossBrowserTesting"/>
+    </classes>
+  </test> <!-- Test+CH+QTP -->
+  <test name="Test+FF+Selenium(failed)">
+    <parameter name="jobtype" value="Selenium"/>
+    <parameter name="url" value="https://www.indeed.com/"/>
+    <parameter name="browserType" value="FF"/>
+    <classes>
+      <class name="testNgEx.CrossBrowserTesting">
+        <methods>
+          <include name="VerifyJs"/>
+          <include name="invokebrowser"/>
+          <include name="invokebrowser"/>
+          <include name="invokebrowser"/>
+        </methods>
+      </class> <!-- testNgEx.CrossBrowserTesting -->
+    </classes>
+  </test> <!-- Test+FF+Selenium(failed) -->
+  <test name="Test+IE+java(failed)">
+    <parameter name="jobtype" value="java"/>
+    <parameter name="url" value="https://www.indeed.com/"/>
+    <parameter name="browserType" value="IE"/>
+    <classes>
+      <class name="testNgEx.CrossBrowserTesting">
+        <methods>
+          <include name="VerifyJs"/>
+          <include name="invokebrowser"/>
+          <include name="invokebrowser"/>
+          <include name="invokebrowser"/>
+        </methods>
+      </class> <!-- testNgEx.CrossBrowserTesting -->
+    </classes>
+  </test> <!-- Test+IE+java(failed) -->
+  <test name="Test+CH+QTP(failed)">
+    <parameter name="jobtype" value="QTP"/>
+    <parameter name="url" value="https://www.indeed.com/"/>
+    <parameter name="browserType" value="CH"/>
+    <classes>
+      <class name="testNgEx.CrossBrowserTesting">
+        <methods>
+          <include name="VerifyJs"/>
+          <include name="invokebrowser"/>
+          <include name="invokebrowser"/>
+          <include name="invokebrowser"/>
+        </methods>
+      </class> <!-- testNgEx.CrossBrowserTesting -->
+    </classes>
+  </test> <!-- Test+CH+QTP(failed) -->
+</suite> <!-- Failed suite [Suite] -->
